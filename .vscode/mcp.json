@@ -15,9 +15,9 @@
     "servers": {
         "remote-mcp-function": {
             "type": "sse",
-            "url": "https://python4455-fpfeeqg5bnbnf2cm.eastus-01.azurewebsites.net/runtime/webhooks/mcp/sse",
+            "url": "https://<azure function name>.azurewebsites.net/runtime/webhooks/mcp/sse",
             "headers": {
-                "x-functions-key": "8Ct0RyIoqH8irjWdF7NN78wgIddUlGWHY0F2XIK0-7rtAzFuuD2r1g=="
+                "x-functions-key": "azure function app key"
             }
         },
         "local-mcp-function": {
@@ -25,4 +25,5 @@
             "url": "http://localhost:7071/runtime/webhooks/mcp/sse"
         }
     }
+
 }
