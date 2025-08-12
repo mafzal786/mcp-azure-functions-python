@@ -114,10 +114,14 @@ An Azure Storage Emulator is required for this particular sample.
 
 5. **List Tools**.  Click on a tool and **Run Tool**.
 
+<img width="2002" height="927" alt="Screenshot 2025-08-12 101327" src="https://github.com/user-attachments/assets/fe7aca16-fb41-4cf2-86dd-d135b782ebc2" />
 
 
 ## Deploy to Azure for Remote MCP from VSCode
 you can deploy azure function from the vscode using azure extension. login to azure. Look for Function App in Resource, right click and click "Deploy to Function App". you can also use Azure CLI to deploy the function app to Azure.
+
+
+<img width="1601" height="829" alt="Untitled" src="https://github.com/user-attachments/assets/943518d7-b9d3-4fc4-a32c-212b8f9c9658" />
 
 
 ## Connect to your *remote* MCP server function app from a client
@@ -189,6 +193,7 @@ For GitHub Copilot within VS Code, you should instead set the key as the `x-func
     }
 }
 ```
+
 
 
 
