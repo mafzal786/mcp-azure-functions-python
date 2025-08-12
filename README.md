@@ -14,7 +14,7 @@ urlFragment: remote-mcp-functions-python
 ---
 -->
 
-# Getting Started with Remote MCP Servers using Azure Functions (Python)
+# Remote MCP Servers using Azure Functions (Python)
 
 This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure Functions with Python. You can clone/restore/run on your local machine with debugging. The MCP server is secured by design using keys and HTTPS, and allows more options for OAuth using built-in auth and/or [API Management](https://aka.ms/mcp-remote-apim-auth) as well as network isolation using VNET.
 
@@ -116,7 +116,8 @@ An Azure Storage Emulator is required for this particular sample.
 
 
 
-## Deploy to Azure for Remote MCP
+## Deploy to Azure for Remote MCP from VSCode
+you can deploy azure function from the vscode using azure extension. login to azure. Look for Function App in Resource, right click and click "Deploy to Function App". you can also use Azure CLI to deploy the function app to Azure.
 
 
 ## Connect to your *remote* MCP server function app from a client
@@ -188,5 +189,6 @@ For GitHub Copilot within VS Code, you should instead set the key as the `x-func
     }
 }
 ```
+
 
 
